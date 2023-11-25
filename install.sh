@@ -12,16 +12,20 @@ echo "1
 
 curl "https://raw.githubusercontent.com/cloudyskaisss/asciiquarium-install/main/install.sh" | bash
 
+sudo curl -L https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -o /usr/local/bin/unimatrix
+sudo chmod a+rx /usr/local/bin/unimatrix
+sudo echo "alias 'matrixx'='unimatrix -s 97"
+
 clear
 
 echo "***SUCCESSFULLY INSTALLED THE FOLLOWING: ***
 •aafire
 •asciiquarium
 •cowsay
-•cmatrix
 •figlet
 •fortune
 •hackingtool
 •rig
 •sl
+•unimatrix (use alias matrixx for perfect speed)
 ***ALL OF THESE WORK AS COMMANDS***"
