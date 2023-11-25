@@ -14,7 +14,6 @@ curl "https://raw.githubusercontent.com/cloudyskaisss/asciiquarium-install/main/
 
 sudo curl -L https://raw.githubusercontent.com/will8211/unimatrix/master/unimatrix.py -o /usr/local/bin/unimatrix
 sudo chmod a+rx /usr/local/bin/unimatrix
-sudo echo "alias 'matrixx'='unimatrix -s 97" > .bash_aliases
 
 clear
 
@@ -27,5 +26,5 @@ echo "***SUCCESSFULLY INSTALLED THE FOLLOWING: ***
 •hackingtool
 •rig
 •sl
-•unimatrix (use alias matrixx for perfect speed)
+•unimatrix
 ***ALL OF THESE WORK AS COMMANDS***"
