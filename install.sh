@@ -3,7 +3,7 @@ if [ $(id -u) -ne 0 ]
   exit
 fi
 
-apt install cowsay cmatrix sl figlet fortune libaa-bin rig -y
+apt install cowsay cmatrix sl figlet fortune libaa-bin rig toilet lolcat -y
 
 git clone https://github.com/Z4nzu/hackingtool
 cd hackingtool
@@ -24,7 +24,9 @@ echo "***SUCCESSFULLY INSTALLED THE FOLLOWING: ***
 •figlet
 •fortune
 •hackingtool
+•lolcat
 •rig
 •sl
+•toilet
 •unimatrix
 ***ALL OF THESE WORK AS COMMANDS***"
