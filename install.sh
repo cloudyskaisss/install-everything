@@ -10,6 +10,10 @@ cd hackingtool
 echo "1
 " | bash install.sh
 
+git clone https://github.com/trustedsec/social-engineer-toolkit
+cd social-engineer-toolkit
+sudo python setup.py
+
 sudo dpkg --add-architecture i386
 sudo mkdir -pm755 /etc/apt/keyrings
 sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
@@ -36,4 +40,5 @@ echo "***SUCCESSFULLY INSTALLED THE FOLLOWING: ***
 •sl
 •toilet
 •unimatrix
+•setoolkit
 ***ALL OF THESE WORK AS COMMANDS***"
