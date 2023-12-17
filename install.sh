@@ -3,7 +3,7 @@ if [ $(id -u) -ne 0 ]
   exit
 fi
 apt update
-apt install cowsay cmatrix sl figlet fortune libaa-bin rig toilet lolcat -y
+apt install cowsay cmatrix sl figlet fortune libaa-bin rig toilet lolcat python-is-python3 -y
 
 git clone https://github.com/Z4nzu/hackingtool
 cd hackingtool
