@@ -13,7 +13,6 @@ echo "1
 git clone https://github.com/trustedsec/social-engineer-toolkit
 cd social-engineer-toolkit
 sudo python setup.py
-sudo cp setoolkit /usr/bin
 
 sudo dpkg --add-architecture i386
 sudo mkdir -pm755 /etc/apt/keyrings
